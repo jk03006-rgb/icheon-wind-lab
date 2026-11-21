@@ -1,4 +1,4 @@
 # 이천 바람 실험실 · 화면 파일 위치(구글 드라이브, 링크 공개)
 # 새 버전을 올릴 때 아래 ID만 바꾸면 자동으로 다시 배포돼요.
-INDEX_ID=1e3QrrdFv-x_Ofji9TGBv8ZdnL55Au6gq
 OG_ID=1eY-Hk8BsnVhUUx9v7HhVao0s4naSBIfX
+INDEX_ID=1spgFcMet92PK7TuXME9hjdGp_P0tVUHx
