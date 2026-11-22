@@ -2,3 +2,4 @@
 # 새 버전을 올릴 때 아래 ID만 바꾸면 자동으로 다시 배포돼요.
 OG_ID=1eY-Hk8BsnVhUUx9v7HhVao0s4naSBIfX
 INDEX_ID=1ICn79gxPKhN99jcrCYF1MQMNC5edwTK-
+FIGS_ID=1Rn8FYYjBWQE57Bcm8R9Y9n1yNQQXotvB
