@@ -27,6 +27,10 @@ jobs:
           curl -fsSL -o site/og.png "https://drive.usercontent.google.com/download?id=${OG_ID}&export=download&confirm=t"
           grep -q "windlab-v3" site/index.html
           file site/og.png | grep -q PNG
+          if [ -n "${FIGS_ID:-}" ]; then
+            curl -fsSL -o figs.zip "https://drive.usercontent.google.com/download?id=${FIGS_ID}&export=download&confirm=t"
+            mkdir -p site/figs && unzip -q -o figs.zip -d site/figs && ls site/figs | wc -l
+          fi
           touch site/.nojekyll
           ls -la site
       - uses: actions/upload-pages-artifact@v4
